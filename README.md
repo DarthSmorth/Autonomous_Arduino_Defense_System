@@ -50,6 +50,11 @@ The system also features a **real-time radar interface** on the Arduino IDE Seri
 ## 📸 Demo / Media
 https://youtu.be/RGREBWFjeFs
 
+---
+
+## 👤 Author
+
+Phong Ngo – Mechatronics Engineering Student | [LinkedIn](https://linkedin.com/in/phong-duong-ngo-36a6502b3)
 
 
 ---
