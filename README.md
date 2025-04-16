@@ -13,15 +13,15 @@ The system also features a **real-time radar interface** on the Arduino IDE Seri
 - 🚨 **Buzzer + laser alarm** when objects are within range
 - 🕹️ **Manual/Auto toggle** using joystick clicks
 - 📟 **LCD feedback** showing system status
-- 📡 **Live radar view** through Serial Monitor for real-time feedback
+- 📡 **Live radar view** through "Processing" software for real-time feedback 
 
 ---
 
 ## 🧰 Hardware Used
 
-- Arduino Uno R3
+- Arduino Uno R4 WiFi
 - HC-SR04 ultrasonic sensor
-- SG90 servo motor
+- SG90 servo motor x2
 - Joystick module
 - LCD (I2C)
 - Passive buzzer
@@ -39,7 +39,7 @@ The system also features a **real-time radar interface** on the Arduino IDE Seri
    - Rotates toward the object
    - Triggers the buzzer and laser
    - Displays a warning on the LCD
-   - **Serial output updates with object angle + distance**
+   - **Serial output updates with object angle + distance, which then updates on Processing with real-time radar detection** 
 3. When the object is gone, it resumes scanning.
 4. Joystick:
    - Single click → manual mode
