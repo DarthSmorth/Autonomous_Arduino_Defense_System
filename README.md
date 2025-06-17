@@ -36,7 +36,6 @@ The system also features a **real-time radar interface** on the Arduino IDE Seri
 1. In **automated mode**, the servo rotates to scan surroundings.
 2. If an object is detected within range:
    - The system stops scanning
-   - Rotates toward the object
    - Triggers the buzzer and laser
    - Displays a warning on the LCD
    - **Serial output updates with object angle + distance, which then updates on Processing with real-time radar detection** 
